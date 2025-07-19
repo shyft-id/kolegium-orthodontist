@@ -45,7 +45,7 @@ export function LulusanBaruContent() {
           {/* Sidebar */}
           <aside className="bg-gray-50 rounded-xl shadow p-6 flex flex-col gap-6 h-fit">
             <img
-              src="https://kolegiumorthodonti.dentalneeds.id/wp-content/uploads/2024/07/LOGO-KOLEGIUM-ORTODONTI-NO-BG-01-1-min.png"
+              src="/logo.png"
               alt="Logo Kolegium Ortodonti Indonesia"
               className="h-32 object-cover mx-auto mb-4"
             />

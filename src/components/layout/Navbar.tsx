@@ -110,10 +110,10 @@ export function Navbar() {
       {/* Mobile Navigation */}
       {isMenuOpen && <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
-            <Link to="/" className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === '/' ? 'text-[#027D77] font-bold' : 'text-gray-700 hover:text-[#027D77]'}`}>
+            <Link to="/" className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === '/' ? 'text-[#027D77] font-bold' : 'text-gray-700 hover:text-[#027D77]'}`} onClick={() => setIsMenuOpen(false)}>
               Home
             </Link>
-            <Link to="/tentang-kami" className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === '/tentang-kami' ? 'text-[#027D77] font-bold' : 'text-gray-700 hover:text-[#027D77]'}`}>
+            <Link to="/tentang-kami" className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === '/tentang-kami' ? 'text-[#027D77] font-bold' : 'text-gray-700 hover:text-[#027D77]'}`} onClick={() => setIsMenuOpen(false)}>
               Tentang Kami
             </Link>
             {/* Pusat Pendidikan Dropdown (shadcn/ui) for Mobile */}
@@ -126,10 +126,10 @@ export function Navbar() {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start">
                 <DropdownMenuItem asChild>
-                  <Link to="/fkg-universitas-indonesia">FKG Universitas Indonesia</Link>
+                  <Link to="/fkg-universitas-indonesia" onClick={() => setIsMenuOpen(false)}>FKG Universitas Indonesia</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <Link to="/fkg-universitas-gadjah-mada">FKG Universitas Gajah Mada</Link>
+                  <Link to="/fkg-universitas-gadjah-mada" onClick={() => setIsMenuOpen(false)}>FKG Universitas Gajah Mada</Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
@@ -143,17 +143,17 @@ export function Navbar() {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start">
                 <DropdownMenuItem asChild>
-                  <Link to="/lulusan-baru">Lulusan Baru</Link>
+                  <Link to="/lulusan-baru" onClick={() => setIsMenuOpen(false)}>Lulusan Baru</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <Link to="/resertifikasi">Resertifikasi</Link>
+                  <Link to="/resertifikasi" onClick={() => setIsMenuOpen(false)}>Resertifikasi</Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-            <Link to="/berita-dan-acara" className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === '/berita-dan-acara' ? 'text-[#027D77] font-bold' : 'text-gray-700 hover:text-[#027D77]'}`}>
+            <Link to="/berita-dan-acara" className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === '/berita-dan-acara' ? 'text-[#027D77] font-bold' : 'text-gray-700 hover:text-[#027D77]'}`} onClick={() => setIsMenuOpen(false)}>
               Artikel
             </Link>
-            <Link to="/galeri" className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === '/galeri' ? 'text-[#027D77] font-bold' : 'text-gray-700 hover:text-[#027D77]'}`}>
+            <Link to="/galeri" className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === '/galeri' ? 'text-[#027D77] font-bold' : 'text-gray-700 hover:text-[#027D77]'}`} onClick={() => setIsMenuOpen(false)}>
               Galeri
             </Link>
           </div>
