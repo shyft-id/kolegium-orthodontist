@@ -10,7 +10,7 @@ export function TentangKamiHero() {
               Tentang <span className="text-[#027D77]">Kami</span>
             </h1>
             <p className="text-lg text-gray-700 mb-8">
-              Kolegium Orthodontist Indonesia adalah komunitas profesional yang berkomitmen untuk pendidikan, sertifikasi, dan pengembangan ortodontis di Indonesia.
+              Kolegium Orthodonti Indonesia adalah komunitas profesional yang berkomitmen untuk pendidikan, sertifikasi, dan pengembangan ortodontis di Indonesia.
             </p>
           </div>
           <div className="hidden lg:block">

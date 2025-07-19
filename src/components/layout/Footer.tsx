@@ -131,6 +131,10 @@ export function Footer() {
           <p>
             &copy; {new Date().getFullYear()} Kolegium Ortodonti Indonesia. Hak Cipta Dilindungi.
           </p>
+          <div className="mt-4 flex flex-col items-center justify-center gap-2">
+            <span className="text-xs text-gray-500">Powered by</span>
+            <img src="/shyft-logo-white.png" alt="Shyft Logo" className="h-6 w-auto" />
+          </div>
         </div>
       </div>
     </footer>;
