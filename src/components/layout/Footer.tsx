@@ -2,7 +2,7 @@ import React from 'react';
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 export function Footer() {
   return <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <img
@@ -12,7 +12,8 @@ export function Footer() {
               style={{ maxHeight: '48px' }}
             />
             <p className="text-gray-300 mb-6">
-            Menjadi Garda Terdepan dalam Pendidikan & Standarisasi Perawatan Ortodonti di Indonesia
+              Komunitas ortodontis terpercaya yang menghubungkan mahasiswa,
+              profesional, dan pasien di seluruh Indonesia.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-[#D2DC00]">
@@ -132,7 +133,9 @@ export function Footer() {
           </p>
           <div className="mt-4 flex flex-col items-center justify-center gap-2">
             <span className="text-xs text-gray-500">Powered by</span>
-            <img src="/shyft-logo-white.png" alt="Shyft Logo" className="h-6 w-auto" />
+            <a href="https://shyft.id/" target="_blank" rel="noopener noreferrer">
+              <img src="/shyft-logo-white.png" alt="Shyft Logo" className="h-6 w-auto" />
+            </a>
           </div>
         </div>
       </div>

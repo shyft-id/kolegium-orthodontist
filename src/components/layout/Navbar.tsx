@@ -61,10 +61,10 @@ export function Navbar() {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="start" sideOffset={0}>
                   <DropdownMenuItem asChild>
-                    <Link to="/fkg-universitas-indonesia">FKG Universitas Indonesia</Link>
+                    <Link to="/fkg-universitas-indonesia" className="cursor-pointer">FKG Universitas Indonesia</Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link to="/fkg-universitas-gadjah-mada">FKG Universitas Gajah Mada</Link>
+                    <Link to="/fkg-universitas-gadjah-mada" className="cursor-pointer">FKG Universitas Gajah Mada</Link>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
@@ -84,10 +84,10 @@ export function Navbar() {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="start" sideOffset={0}>
                   <DropdownMenuItem asChild>
-                    <Link to="/lulusan-baru">Lulusan Baru</Link>
+                    <Link to="/lulusan-baru" className="cursor-pointer">Lulusan Baru</Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link to="/resertifikasi">Resertifikasi</Link>
+                    <Link to="/resertifikasi" className="cursor-pointer">Resertifikasi</Link>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
@@ -126,10 +126,10 @@ export function Navbar() {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start">
                 <DropdownMenuItem asChild>
-                  <Link to="/fkg-universitas-indonesia" onClick={() => setIsMenuOpen(false)}>FKG Universitas Indonesia</Link>
+                  <Link to="/fkg-universitas-indonesia" className="cursor-pointer" onClick={() => setIsMenuOpen(false)}>FKG Universitas Indonesia</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <Link to="/fkg-universitas-gadjah-mada" onClick={() => setIsMenuOpen(false)}>FKG Universitas Gajah Mada</Link>
+                  <Link to="/fkg-universitas-gadjah-mada" className="cursor-pointer" onClick={() => setIsMenuOpen(false)}>FKG Universitas Gajah Mada</Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
@@ -143,10 +143,10 @@ export function Navbar() {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start">
                 <DropdownMenuItem asChild>
-                  <Link to="/lulusan-baru" onClick={() => setIsMenuOpen(false)}>Lulusan Baru</Link>
+                  <Link to="/lulusan-baru" className="cursor-pointer" onClick={() => setIsMenuOpen(false)}>Lulusan Baru</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <Link to="/resertifikasi" onClick={() => setIsMenuOpen(false)}>Resertifikasi</Link>
+                  <Link to="/resertifikasi" className="cursor-pointer" onClick={() => setIsMenuOpen(false)}>Resertifikasi</Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
