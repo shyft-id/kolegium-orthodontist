@@ -22,11 +22,10 @@ export function News() {
   return <section className="py-16 bg-gray-50">
       <div className="container max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900">Berita dan Acara</h2>
+          <h2 className="text-3xl font-bold text-gray-900">Artikel</h2>
           <div className="w-24 h-1 bg-[#D2DC00] mx-auto mt-4 mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Temukan berita terbaru dan acara mendatang dari komunitas ortodontis
-            kami
+            Temukan artikel mendatang dari lembaga Kolegium Orthodonti
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -50,7 +49,7 @@ export function News() {
         </div>
         <div className="text-center mt-12">
           <button className="px-6 py-3 bg-[#027D77] text-white font-medium rounded-lg hover:bg-[#027D77]/90 transition-colors">
-            Lihat Semua Berita dan Acara
+            Lihat Semua Artikel
           </button>
         </div>
       </div>

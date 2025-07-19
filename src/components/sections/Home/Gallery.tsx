@@ -31,7 +31,7 @@ export function Gallery() {
           <h2 className="text-3xl font-bold text-gray-900">Galeri</h2>
           <div className="w-24 h-1 bg-[#D2DC00] mx-auto mt-4 mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Lihat dokumentasi kegiatan dan acara komunitas ortodontis kami
+            Lihat dokumentasi kegiatan dan acara lembaga Kolegium Orthodonti
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

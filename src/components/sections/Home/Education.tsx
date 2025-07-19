@@ -4,12 +4,11 @@ export function Education() {
       <div className="container max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900">
-            Program Pendidikan & Sertifikasi
+          Program Pendidikan dan Sertifikasi
           </h2>
           <div className="w-24 h-1 bg-[#D2DC00] mx-auto mt-4 mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Tingkatkan keahlian dan kredibilitas Anda melalui program pendidikan
-            dan sertifikasi yang komprehensif
+          Mendukung peningkatan kompetensi melalui program pendidikan dan sertifikasi yang dirancang untuk memperkuat keahlian serta standar profesional di bidang ortodonti
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -19,36 +18,36 @@ export function Education() {
             </div>
             <div className="p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Program Pendidikan
+                Program Pelatihan
               </h3>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
                   <div className="flex-shrink-0 w-5 h-5 rounded-full bg-[#D2DC00] mt-1"></div>
                   <span className="ml-3 text-gray-600">
-                    Kursus dasar ortodontis untuk mahasiswa
+                  Kursus dasar ortodonti bagi mahasiswa
                   </span>
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 w-5 h-5 rounded-full bg-[#D2DC00] mt-1"></div>
                   <span className="ml-3 text-gray-600">
-                    Workshop praktik dengan ahli terkemuka
+                  Workshop praktik bersama para ahli di bidangnya
                   </span>
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 w-5 h-5 rounded-full bg-[#D2DC00] mt-1"></div>
                   <span className="ml-3 text-gray-600">
-                    Seminar teknologi ortodontis terbaru
+                  Seminar mengenai perkembangan teknologi ortodonti terkini
                   </span>
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 w-5 h-5 rounded-full bg-[#D2DC00] mt-1"></div>
                   <span className="ml-3 text-gray-600">
-                    Pelatihan penanganan kasus kompleks
+                  Pelatihan penanganan kasus ortodonti yang kompleks
                   </span>
                 </li>
               </ul>
               <button className="w-full py-3 bg-[#027D77] text-white font-medium rounded-lg hover:bg-[#027D77]/90 transition-colors">
-                Lihat Program Pendidikan
+                Lihat Program Pelatihan
               </button>
             </div>
           </div>
@@ -58,7 +57,7 @@ export function Education() {
             </div>
             <div className="p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Program Sertifikasi
+                Uji Kompetensi
               </h3>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
@@ -87,7 +86,7 @@ export function Education() {
                 </li>
               </ul>
               <button className="w-full py-3 bg-[#027D77] text-white font-medium rounded-lg hover:bg-[#027D77]/90 transition-colors">
-                Lihat Program Sertifikasi
+                Lihat Uji Kompetensi
               </button>
             </div>
           </div>

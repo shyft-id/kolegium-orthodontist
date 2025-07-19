@@ -12,8 +12,7 @@ export function Footer() {
               style={{ maxHeight: '48px' }}
             />
             <p className="text-gray-300 mb-6">
-              Komunitas ortodontis terpercaya yang menghubungkan mahasiswa,
-              profesional, dan pasien di seluruh Indonesia.
+            Menjadi Garda Terdepan dalam Pendidikan & Standarisasi Perawatan Ortodonti di Indonesia
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-[#D2DC00]">

@@ -5,13 +5,8 @@ export function Features() {
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900">
-            Layanan Utama Kami
+            Pentingnya Kolegium Ortodonti
           </h2>
-          <div className="w-24 h-1 bg-[#D2DC00] mx-auto mt-4 mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Menyediakan berbagai layanan untuk mendukung komunitas ortodontis di
-            Indonesia
-          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow">
@@ -22,8 +17,7 @@ export function Features() {
               Program Pendidikan
             </h3>
             <p className="text-gray-600">
-              Akses ke program pendidikan berkualitas tinggi untuk mahasiswa
-              kedokteran gigi
+              Menyediakan akses program pendidikan ortodonti yang bermutu bagi mahasiswa kedokteran gigi
             </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow">
@@ -34,8 +28,7 @@ export function Features() {
               Sertifikasi Profesional
             </h3>
             <p className="text-gray-600">
-              Dapatkan sertifikasi yang diakui untuk meningkatkan kredibilitas
-              dan keahlian Anda
+              Memberikan sertifikasi resmi untuk mendukung pengakuan keahlian dan standar profesional
             </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow">
@@ -46,8 +39,7 @@ export function Features() {
               Komunitas Profesional
             </h3>
             <p className="text-gray-600">
-              Bergabunglah dengan jaringan ortodontis profesional untuk berbagi
-              pengetahuan
+              Mendorong kolaborasi dan pertukaran pengetahuan melalui komunitas ortodontis di Indonesia
             </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow">
@@ -58,8 +50,7 @@ export function Features() {
               Direktori Ortodontis
             </h3>
             <p className="text-gray-600">
-              Temukan ortodontis terpercaya dan bersertifikat di seluruh
-              Indonesia
+              Menyediakan informasi ortodontis bersertifikat yang dapat diakses oleh masyarakat luas
             </p>
           </div>
         </div>
